@@ -1,0 +1,59 @@
+.weboldal {
+  width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+img {
+  width: 800px;
+  height:250px;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 45px;
+}
+
+h3{
+ margin-left:35px;
+}
+
+.fejlec {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  font-family: 'Abril Fatface', cursive;
+  color: #222 grey;
+}
+
+p {
+  margin-top:20px;
+  margin-left:100px;       
+}
+
+ul{
+  list-style-type: square;
+  margin-left: 110px;
+}
+
+blockquote {
+  font-size: 35px;
+  color: white;
+  background: grey;
+  padding: 30px 50px;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-left: 120px;
+  margin-right:100px;
+}
+
+blockquote::before {
+  content: '“';
+  position: absolute;
+  left: 2px;
+  top: -18px;
+  font-size: 90px;
+  
+}
